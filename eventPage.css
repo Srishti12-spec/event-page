@@ -1,0 +1,110 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+}
+.navbar{
+    width: 70%;
+    float: right;
+    height: 70px;
+    /* background-color: white; */
+}
+.navbar ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+    
+ }
+ .navbar ul li a{
+     color: black;
+     font-weight: bold;
+ }
+
+ .navbar ul li a:hover{
+     color: red;
+ }
+ 
+ .container1{
+     background-image:url("./rev_sliderhome2_1.jpg");
+     height: 900px;
+     width: 100%;
+     float: left;
+ }
+ .left-part{
+     padding-left: 25px;
+     /* padding-top: 200px; */
+     width:65%;
+     display: inline-block;
+     margin-top: 30px;
+ }
+ .left-part h1{
+     color: white;
+     font-size: 74px;
+   
+ }
+ .left-part h2{
+    color: white;
+    font-size: 100px;
+}
+.left-part h3{
+    color: white;
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: 100;
+}
+ .btn{
+    background-image: linear-gradient(to right, #fd8a66 0%, #fd4c72 49%, #fd387c 85%, #fd2384 100%);
+    border: 0px solid red;
+    border-radius: 30px;
+    /* width: 20%; */
+    padding: 15px 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    margin-top: 45px;
+    
+    display: inline-block;
+}
+ 
+.right-part {
+    width: 30%;
+    display: inline-block;
+}
+
+.right-part input {
+    width: 80%;
+    margin: 5% 10%;
+    height: 45px;
+    border: 0px solid black;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.form-cont {
+    margin: 100px 10px 50px 10px;
+    width: 88%;
+    background-color: white;
+    border-top: 5px solid red;
+}
+form h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+form .btn {
+    margin-left: 28%;
+    margin-bottom: 40px;
+}
